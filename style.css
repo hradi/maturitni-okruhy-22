@@ -1,0 +1,116 @@
+body {
+    background-color: whitesmoke;
+    font-family: 'Barlow';
+    margin: 0;
+}
+h1 {
+    font-family: 'Zilla slab Highlight';
+    font-size: 140px;
+}
+h2 {
+    font-family: 'Zilla Slab Highlight';
+    font-size: 84px;
+    color:black;
+    margin: 0;
+}
+header {
+    padding-bottom: 200px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+}
+header p {
+    font-family: 'barlow';
+    font-size: 36px;
+    margin: -245px 200px 0 500px;
+}
+header a {
+    text-decoration: none;
+    color: rgb(0, 105, 119);
+}
+header a:hover {
+    color: rgb(0, 168, 190);
+}
+.cyan {
+    color:rgb(0, 105, 119);
+}
+.lite {
+    color:rgb(0, 168, 190);
+}
+.emphasis {
+    font-family: 'Barlow';
+    font-size: 25px;
+}
+.d-theme a {
+    background-color: rgb(0, 105, 119);
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 5px;
+}
+.d-theme a:hover {
+    color: black;
+}
+.d-theme {
+    display:flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+section {
+    padding: 10%;
+    display: grid;
+    grid-template-columns: repeat(5, 200px);
+    grid-template-rows: repeat(2, 120px);
+    border-bottom-style: solid;
+    gap: 10px;
+}
+section div {
+    padding: 5px;
+}
+section a {
+    text-decoration: none;
+    color: black;
+}
+section a:hover {
+    color:rgb(0, 105, 119);
+}
+.title {
+    grid-column: 2;
+    grid-row: 2;
+
+}
+.title h2 {
+    font-size: 120px;
+}
+.one {
+    grid-column: 2;
+    grid-row: 1;
+    /*border-style: solid;
+    border-width: 0.5px;
+    border-color: gray;*/
+    /*border-radius: 5px;*/
+}
+.two {
+    grid-column: 1;
+    grid-row: 2;
+}
+.three {
+    grid-column: 3;
+    grid-row: 1;
+}
+.four {
+    grid-column: 4;
+    grid-row: 1;
+}
+.five {
+    grid-column: 1;
+    grid-row: 1;
+}
+.six {
+    grid-column: 5;
+    grid-row: 2;
+}
+
+
+
+footer {
+    text-align: center;
+}
