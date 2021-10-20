@@ -14,14 +14,14 @@ h2 {
     margin: 0;
 }
 header {
-    padding-bottom: 200px;
+    padding-bottom: 310px;
     border-bottom-width: 2px;
     border-bottom-style: solid;
 }
 header p {
     font-family: 'barlow';
     font-size: 36px;
-    margin: -245px 200px 0 500px;
+    margin: -400px 200px 0 500px;
 }
 header a {
     text-decoration: none;
@@ -112,8 +112,24 @@ section a:hover {
     grid-column: 1;
     grid-row: 2;
 }
+.eight {
+    grid-column: 4;
+    grid-row: 2;
+}
 
-
+.prehled {
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 150px);
+    padding: 5%;
+    gap: 5px;
+}
+.prehled div {
+    background-color: rgb(0, 168, 190);
+}
+.prehled a:hover {
+    color: rgb(174, 246, 255);
+}
 
 footer {
     text-align: center;
